@@ -1,0 +1,79 @@
+
+
+
+.inter-<uniquifier>{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.header-title{
+   background-color: rgba(17, 17, 17, 1)
+    ;
+}
+.btn-primary{
+    background-color: chocolate;
+    padding: 5px;
+    border-radius: 15px;
+    /* size: 130px; */
+  
+}
+/* nav section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 100px ;
+    
+}
+nav a{
+    font-family: Inter;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 43.2px;
+    text-align: left;
+    text-decoration: none;
+    color:  rgba(230, 83, 60, 1);
+    ;
+    
+}
+nav ul{
+    display: flex;
+    /* justify-content: space-between; */
+
+    border: 2px solid wheat;
+    border-radius: 5px;
+    align-items: center;
+    
+    
+}
+nav ul li{
+    /* list-style: none; */
+    margin-right: 50px;
+    margin-left: 0px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+/* header-section */
+.header-discription{
+color: white;
+width: 50%;
+}
+.style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+    
+    
+}
+.banner-title{
+    font-weight: bolder;
+}
+.banner-description{
+    font-weight: 300;
+    font-size: small;
+    color: darkgrey;
+}
