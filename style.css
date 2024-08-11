@@ -97,7 +97,7 @@
 }
 
 
-#join-btn{
+.join-btn{
     max-width:  224px;
 height: 54px;
 padding: 16px 40px 16px 40px;
@@ -161,7 +161,6 @@ width: 206px;
 height: 96px;
 gap: 0px;
 border-radius: 12px;
-border: 1px ;
 opacity: 0px;
 margin-top:-250px ;
 margin-left: -23px;
@@ -214,10 +213,14 @@ color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 .habit{
-    display: inline;
+     max-width: 231px;
+     max-height: 274px;
+     gap: 30px;
     justify-content: center;
+    align-items: center;
 }
 .habit-img{
     width: 180px;
@@ -236,7 +239,53 @@ color: rgba(255, 255, 255, 1);
     margin-bottom: 0px;
 
 }
-.habit-p{
+/* run section */
+.run-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    max-height: 371px;
+    margin: 0px 190px 100px 190px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+    
+}
+
+.run-h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#run-p{
+    text-align: left;
+    margin-top: 0px;
+}
+.run-join-btn{
+    max-width: 224px ;
+max-height: 54px;
+padding: 16px 40px 16px 40px;
+gap: 10px;
+border-radius: 42px;
+opacity: 0px;
+background: rgba(230, 83, 60, 1);
+font-size: 1.1rem;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
 
 }
+.run-img{
+    width: 366px;
+height: 312px;
+border-radius: 18px;
+opacity: 0px;
+margin: 30px 32px 29px 0px;
+}
+.run-description{
+    max-width: 443px;
+    max-height: 290px;
+    margin: 41px 163px 40px 57px;
+}
+
 
