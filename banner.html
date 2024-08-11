@@ -4,41 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fitness</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style.css"> 
+   
 </head>
 <body >
     <header class="header-title">
-     <nav> 
-      <a href="">Fitness</a>
-        <ul class="nav-li">
-            <li> <a href=""><button class="btn-primary">Home</button></a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Contact</a></li>
-            <li> <a href="">About</a></li>
+     <nav class="nav"> 
+      <h3 id="fitness">Fitness</h3>
+        <ul class="nav-li display-flex">
+            <li> <a href=""><button class=" home-btn btn-primary">Home</button></a></li>
+            <li><a href=""class="nav-item">Service</a></li>
+            <li><a href=""class="nav-item">Contact</a></li>
+            <li><a href=""class="nav-item">About</a></li>
         </ul>
      </nav>
-     <div class="style">
-        <div class="header-discription" >
-            <h1 class="banner-title"> Get body in <br><i>shape</i>  & stay <br> healthy</h1>
+     <div class="banner display-flex">
+        <div class="banner-container" >
+            <h1 class="banner-title"> Get body in <br><span class="shape">shape</span>  & stay <br> healthy</h1>
             <p class="banner-description"> A huge selection of health and fitness content, healthy recipes 
                 and transformation stories to help you get fit and stay fit!</p>
-                <button class="btn-primary"> Join Club Now!</button>
-                <button class="btn-primary">Download App</button>
+                <button id="join-btn">
+                    <div class="btn-text">Join Club Now!</div>
+                </button>
+                <button id="download-btn">
+                    <div class="btn-text">
+                        Download App
+                    </div>
+                </button>
          </div>
          <div class="header-img">
-            <div>
-                <h3>500+</h3>
-                <p>Free Workout Videos</p>
+            <div id="Workout-videos">
+                <h3 id="nu1">500+</h3>
+                <p id="Workout">Free Workout Videos</p>
             </div>
-            <div>
+            <div class="img">
                 <img src="./images/Images 2.png" alt="">
             </div>
-            <div>
-                <h4>350+</h4>
-                <p>Video tutorial</p>
+            <div id="Video-tut">
+                <div class="ball"></div>
+               <div>
+                <h4 id="nu2">350+</h4>
+                <p id="tutorial">Video tutorial</p>
+               </div>
             </div>
          </div>
      </div>
