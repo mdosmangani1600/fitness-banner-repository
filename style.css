@@ -25,6 +25,9 @@
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    /* text-align: center; */
+}
+.text-pp{
     text-align: center;
 }
 /* nav section */
@@ -201,11 +204,12 @@ margin: 100px 198px;
     justify-content: center;
 }
 .habit-h{
-font-size: 48px;
+font-size: 3rem;
 font-weight: 900;
 line-height: 57.6px;
 text-align: center;
 color: rgba(255, 255, 255, 1);
+margin-bottom: 0px;
 
 }
 
@@ -287,5 +291,137 @@ margin: 30px 32px 29px 0px;
     max-height: 290px;
     margin: 41px 163px 40px 57px;
 }
+/* meet section */
+.meet-section{
+    align-items: center;
+    justify-content: center;
+    margin: 0px 190px 88px 190px;
 
+}
+
+.meet-description{
+    max-width:671px ;
+max-height: 120px;
+opacity: 0px;
+margin: 0px 195px 58px 195px;
+}
+.trainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+
+}
+.trainer-card{
+    width: 326.67px;
+height: 272px;
+
+border-radius: 18px;
+opacity: 0px;
+
+}
+.trainer-name{
+    margin-top: -100px;
+    margin-left: 17px;
+}
+.trainer-h4{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0px;
+
+}
+.trainer-p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+
+}
+.trainer-img{
+    width: 326.67px;
+height: 272px;
+gap: 0px;
+border-radius: 18px;
+opacity: 0px;
+}
+/* footer section */
+
+.footer{
+    width: 100%;
+    height: 489px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0px;
+
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: Hug (1,059px);
+height: Hug (249px);
+margin: 66px 190px;
+gap: 102px;
+opacity: 0px;
+}
+#f-border{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 150px ;
+}
+
+.footer-description{
+    max-width: 443px;
+max-height: 176px;
+gap: 20px;
+opacity: 0px;
+justify-content: left;
+align-items: start;
+margin: 0px 102px 73px 0px;
+}
+.footer-Contact{
+    max-width: 514px;
+max-height: 249px;
+gap: 100px;
+opacity: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.footer-fitness{
+    font-size: 4.4rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+    margin: 0px 187px 20px 0px;
+}
+.Contact-start{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+
+}
+.Contact{
+    width: Fill (181px);
+height: Hug (172px);
+gap: 20px;
+opacity: 0px;
+font-size: 1.5rem;
+font-weight: 400px;
+color: rgba(255, 255, 255, 0.5);
+
+}
+
+.copy-right{
+    width: 318px;
+    height: 24px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+     align-items: center;
+     justify-content: center;
+     margin: 35px 560px 35px 560px;
+}
 
