@@ -400,7 +400,33 @@ font-weight: 600;
 color: rgba(255, 255, 255, 1);
 
 }
+/* challenge part */
 
+.dream-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 190px 0px 190px;
+    gap: 90px;
+    background-color:  rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+
+}
+ .dream-description{
+    width: 550px;
+    height: 450px;
+    padding: 20px;
+ }
+ .dream-h{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(224, 216, 178);
+ }
+ .dream-img{
+    width: 550px;
+    height: 450px;
+    border-radius: 15px;
+ }
 
 
 /* meet section */
@@ -548,7 +574,9 @@ color: rgba(255, 255, 255, 0.5);
 
     }
     .nav-li{
-        display: none;
+        /* display: none; */
+        flex-direction: column;
+        gap: 0px;
     }
 .banner{
     flex-direction: column;
@@ -623,6 +651,20 @@ color: rgba(255, 255, 255, 0.5);
 .form{
     margin: 0px;
     margin-top: 100px;
+}
+.dream-section{
+    flex-direction: column;
+    
+
+}
+.dream-description{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.dream-img{
+    width: 400px;
+    height: 350px;
 }
 .meet-section{
     flex-direction: column;
