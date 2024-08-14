@@ -16,10 +16,10 @@
 }
 .btn-primary{
     background-color: rgba(230, 83, 60, 1);
-    ;
 }
 .bg-color{
     background-color: rgba(17, 17, 17, 1);
+    padding-left: 30px;
 }
 .text-p{
     font-size: 1rem;
@@ -80,11 +80,11 @@
 .banner{
      justify-content: space-between;
      align-items: center;
-     margin: 96px 90px 76px 190px;
+     /* margin: 96px 90px 76px 190px; */
 }
 .banner-container{
    max-width: 600px;
-    margin: 96px 90px 76px 0px;
+    margin: 96px 176px 76px 190px;
 }
 .banner-title{
     font-weight: 900;
@@ -127,9 +127,9 @@ background: rgba(230, 83, 60, 1);
 
 }
 .img{
-    padding:  32px 0px 100px 90px;
-    padding-right: ;
-    
+    width: 349px;
+    height: 580px;
+    margin:  32px 214px 100px 0px;
 }
 
 #Workout-videos{
@@ -139,8 +139,8 @@ background: rgba(230, 83, 60, 1);
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(255, 255, 255, 0.1);
     position: relative;
-    margin-bottom: -250px;
-    margin-left: 300px;
+    margin-bottom: -270px;
+    margin-left: 220px;
 }
 #nu1{
 font-size: 2.5rem;
@@ -166,7 +166,7 @@ gap: 0px;
 border-radius: 12px;
 opacity: 0px;
 margin-top:-250px ;
-margin-left: -23px;
+margin-left: -100px;
 background-color: rgba(48, 48, 48, 0.54);
 border: 1px solid rgba(255, 255, 255, 0.1)
 
@@ -311,10 +311,6 @@ margin: 0px 385px 88px 385px;
 .bmi-calculat{
     display: flex;
     background: rgba(34, 34, 34, 1);
-
-}
-.bmi-box{
-    
 
 }
 .bmi-h{
@@ -499,7 +495,6 @@ margin: 0px 102px 73px 0px;
 max-height: 249px;
 gap: 100px;
 opacity: 0px;
-
     display: flex;
     justify-content: space-between;
     margin: 0px;
@@ -516,6 +511,14 @@ opacity: 0px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
 
+}
+.f-contact{
+    width: Hug (181px)px;
+height: Hug (249px)px;
+gap: 39px;
+opacity: 0px;
+
+    text-align: start;
 }
 .Contact{
     width: Fill (181px);
@@ -537,5 +540,156 @@ color: rgba(255, 255, 255, 0.5);
      align-items: center;
      justify-content: center;
      margin: 35px 560px 35px 560px;
+}
+
+@media screen and (max-width:576px) {
+    .nav{
+        margin: 0px;
+
+    }
+    .nav-li{
+        display: none;
+    }
+.banner{
+    flex-direction: column;
+}
+.banner > div{
+    width: 100%;
+    margin: 0px auto 150px 20px;
+}
+.habits-container{
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+}
+.habits{
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+}
+.run-container{
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+    align-items: center;
+    
+}
+.run-container > div{
+    margin-bottom: 30px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(34, 34, 34, 1);
+}
+.run-description{
+    margin: 0px;
+    margin-top: 100px;
+}
+
+.bmi{
+    margin: 600px 0px 10px 0px;
+}
+.bmi-calculat{
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+.bmi-box{
+    margin: 0px;
+    padding: 0px;
+}
+.bmi-h{
+    width: 100px;
+    margin: 0px;
+}
+.bmi-chat{
+    width: 100%;
+    margin: 0px;
+}
+.bmi-calculat-container{
+    margin: 0px;
+}
+
+.bmi-p{
+    width: 346px;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.bmi-form-container{
+    margin-top: 30px;
+}
+.form{
+    margin: 0px;
+    margin-top: 100px;
+}
+.meet-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+
+}
+.meet-description{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+.habit-h{
+    width: 100%;
+}
+.trainer{
+    grid-template-columns:repeat(1,1fr) ;
+
+}
+footer{
+   
+}
+.footer{
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 1300px;
+    
+    width: 393px;
+}
+  .footer-container{
+    flex-direction: column;
+    margin: 0px;
+  }
+  .footer-Contact{
+    flex-direction: column;
+    margin: 0px;
+    
+  }
+  .footer-description {
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+  }
+  .f-contact{
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+  }
+  #f-border{
+    padding-bottom: 550px ;
+}
+ .copy-right{
+    margin: 0px;
+    width: 318px;
+height: 24px;
+top: 905px;
+left: 18px;
+gap: 0px;
+opacity: 0px;
+
+    margin-top: 0px;
+    text-align: center;
+ }
+
 }
 
