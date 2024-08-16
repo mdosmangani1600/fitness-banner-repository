@@ -2,7 +2,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -92,10 +92,10 @@
     color:  rgba(255, 255, 255, 1);
     ;
 }
-.shape{
-    font:  Miama;
+.miama{
+    font-family: miama;
     font-weight: 400;
-    font-size: 4.9rem;
+    font-size: 2.9rem;
     font-style: italic;
 }
 
@@ -570,7 +570,7 @@ color: rgba(255, 255, 255, 0.5);
 
 @media screen and (max-width:576px) {
     .nav{
-        margin: 0px;
+        margin: 0px auto;
 
     }
     .nav-li{
@@ -580,15 +580,33 @@ color: rgba(255, 255, 255, 0.5);
     }
 .banner{
     flex-direction: column;
+    margin: 0px auto;
 }
 .banner > div{
     width: 100%;
     margin: 0px auto 150px 20px;
 }
+.btn-div{
+    display: flex;
+}
+#download-btn{
+    padding: 15px;
+}
+.join-btn{
+    padding: 15px;
+}
+#Workout-videos{
+    margin-bottom: -200px;
+    margin-left: 200px;
+}
+#Video-tut{
+    margin-top: -340px;
+    margin-left: -50px;
+}
 .habits-container{
     width: 100%;
     flex-direction: column;
-    margin: 0px;
+    margin: 0px auto;
 }
 .habits{
     width: 100%;
@@ -597,7 +615,7 @@ color: rgba(255, 255, 255, 0.5);
 }
 .run-container{
     flex-direction: column;
-    margin: 0px;
+    margin: 0px auto;
     margin-top: 30px;
     align-items: center;
     
@@ -610,7 +628,7 @@ color: rgba(255, 255, 255, 0.5);
     background-color: rgba(34, 34, 34, 1);
 }
 .run-description{
-    margin: 0px;
+    margin: 0px auto;
     margin-top: 100px;
 }
 
@@ -649,7 +667,7 @@ color: rgba(255, 255, 255, 0.5);
     margin-top: 30px;
 }
 .form{
-    margin: 0px;
+    margin: 0px auto;
     margin-top: 100px;
 }
 .dream-section{
@@ -670,13 +688,13 @@ color: rgba(255, 255, 255, 0.5);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+    margin: 0px auto;
     width: 100%;
     height: auto;
 
 }
 .meet-description{
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
     text-align: center;
     width: 100%;
@@ -693,7 +711,7 @@ footer{
 }
 .footer{
     flex-direction: column;
-    margin: 0px;
+    margin: 0px auto;
     margin-top: 1300px;
     
     width: 393px;
@@ -708,7 +726,7 @@ footer{
     
   }
   .footer-description {
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
     gap: 0px;
   }
@@ -721,16 +739,17 @@ footer{
     padding-bottom: 550px ;
 }
  .copy-right{
-    margin: 0px;
+    margin: 0px auto;
     width: 318px;
 height: 24px;
-top: 905px;
-left: 18px;
+/* top: 905px;
+left: 18px; */
 gap: 0px;
 opacity: 0px;
 
     margin-top: 0px;
     text-align: center;
+    
  }
 
 }
